@@ -32,9 +32,27 @@
   height: 100px;
 }
 
+
 .logo {
   height: 40px;
 }
+
+a{
+  text-decoration: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+  
+} 
+
+
+nav ul li a{
+  color: black;
+  text-transform: uppercase;
+}
+
 
 
 .jumbotron {
