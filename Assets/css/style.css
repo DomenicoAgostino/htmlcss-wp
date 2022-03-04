@@ -34,8 +34,13 @@
 
 
 .logo {
-  height: 40px;
+  height: 45px;
 }
+
+nav {
+  padding-bottom: 5%;
+}
+
 
 a{
   text-decoration: none;
@@ -44,6 +49,7 @@ a{
 nav ul li{
   display: inline-block;
   margin: 0 10px;
+  margin-left: 1px;
   
 } 
 
@@ -51,16 +57,26 @@ nav ul li{
 nav ul li a{
   color: black;
   text-transform: uppercase;
+  
 }
 
 
 
 .jumbotron {
-  background-color: rgb(225, 214, 122);
-  height: 400px;
-  width: 1200px;
+  height: 500px;
   margin: 10px auto;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 
+
+}
+
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 100%;
 }
 
 
@@ -111,9 +127,9 @@ section {
 
 .main-top {
   height: 100px;
-  width: 1200px;
+  width: 80%;
   background-color: rgb(171, 207, 231);
-  margin: 0 auto;
+
  
 }
 
@@ -125,9 +141,3 @@ footer {
 div.container {
   margin-bottom: 5px;
 }
-
-
-
-
-
-
