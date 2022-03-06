@@ -69,19 +69,29 @@ nav ul li a{
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  border-radius: 10px;
+  color: white;
 
 
 }
 
 .jumbotron .text{
-  padding-top: 22%;
-  padding-left: 87px;
+  padding-top: 26%;
+  padding-left: 44px;
 }
 
 
-.overlay{
+.overlay.text {
   background-color: rgba(0, 0, 0, 0.25);
   height: 100%;
+}
+
+.overlay.text h3, p {
+  width: 60%;
+}
+
+.overlay.text h3 {
+  font-size: 2rem;
 }
 
 
